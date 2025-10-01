@@ -1,0 +1,55 @@
+<html>
+
+<script>
+
+    let dinheiroClient = 100
+
+    alert("Nossos sorvetes custam $8.00 cada, mais a calda fica $10.00. Temos inúmeros sabores.")
+    
+    if (dinheiroClient < 10)
+    {
+     alert("Você não tem dinheiro o suficiente")   
+    }
+    else
+    {
+            let saborSorvete = prompt("Qual sabor você quer?")
+
+            let vaiQuererCalda = confirm("Vai querer calda?")
+
+            if (vaiQuererCalda = true)
+                {
+                    saborCaldaCliente = prompt("Vai querer calda de qual sabor?")   
+                }
+            else
+                {
+                    let resultado1 = confirm("Você pediu um sorvete de " + saborSorvete + ". É isso mesmo?")
+
+                    if(resultado2 = true)
+                    {
+                        alert(" No total ficou 8 reais.")
+                        let formaDePagamento = prompt("Vai ser débito ou credito?")
+                        alert("Obrigado pela compra")
+                    }
+                    else
+                    {
+                        alert("Se algum problema reinicie o atendimento, por favor.")
+                    }
+                }
+
+        let resultado2 = confirm("Você pediu um sorvete de " + saborSorvete + " com calda de " + saborCaldaCliente + ". É isso mesmo?")
+
+        if(resultado2 = true)
+        {
+            alert(" No total ficou 10 reais.")
+            let formaDePagamento = prompt("Vai ser débito ou credito?")
+            alert("Obrigado pela compra")
+        }
+        else
+        {
+            
+        }
+       
+    }
+
+</script>
+</html>
