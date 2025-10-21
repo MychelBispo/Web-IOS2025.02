@@ -1,0 +1,19 @@
+/* classe chamamos com .*/
+.frutas
+{
+    background-image: url(frutas.jpg);
+}
+
+.carros
+{
+    
+    background-image: url(corsa.webp);
+}
+
+.listas
+{
+    color: aqua;
+    height: 600px;
+    width: 600px;
+    font-size: 50px;
+}
