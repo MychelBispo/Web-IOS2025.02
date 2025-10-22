@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+
+/*Para usar uma fonte da internet podemos usar o @import do site especificado. Nesse exemplo que fizemos utilizamos
+o site Google Fonts para importar e utilizar uma nova font-family.*/
+
+h2
+{
+    font-family: "Bitcount Prop Single Ink", system-ui;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+    text-shadow: -10px 20px 5px crimson ;
+    /*primeiro valor deslocamento horizontal,
+    segundo valor deslocamento vertical,
+    terceiro valor desfoque,
+    quarto valor cor da sombra.*/
+}
+
+p
+{
+    font-family: fantasy;
+    text-align: center;
+    width: 400px;
+}
