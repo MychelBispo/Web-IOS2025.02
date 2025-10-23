@@ -1,0 +1,24 @@
+/* reset básico do CSS*/
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+p
+{
+    background-color: red;
+}
+
+/*Todo parágrafo que estiver dentro de um li recebera o design abaixo*/
+li p
+{
+    background-color: yellow;
+}
+
+/*Todo parágrafo que estiver dentro de um ol que está dentro de uma li receberá o design abaixo*/
+ol li p
+{
+    background-color: blue;
+    
+}

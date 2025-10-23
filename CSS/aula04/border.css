@@ -1,0 +1,15 @@
+h1
+{
+    /*Border-width determina o tamanho da borda*/
+    border-width: 10px;
+     /*Border-color determina a cor da borda*/
+    border-color: aqua;
+     /*Border-style determina o formato da borda*/
+    border-style: inset;
+}
+
+main p
+{
+    /*Podemos criar bordas de maneir aabreviada utilizando apenas a propriedade border, Border recebe 3 valores sendo eles: tamanho (10px) , tipo(double), cor(black) */
+    border: 10px black double;
+}
