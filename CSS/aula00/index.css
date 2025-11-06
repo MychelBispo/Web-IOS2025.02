@@ -1,0 +1,11 @@
+button
+{
+    background-color: aquamarine;
+    border-radius: 10px;
+    
+}
+
+button:hover
+{
+    color: white;
+}

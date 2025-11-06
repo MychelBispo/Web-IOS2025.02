@@ -1,0 +1,23 @@
+body
+{
+    background-color: black;
+}
+
+#container
+{
+    background-color: white;
+    display: flex;
+
+    /*Justify alinha os itens na horizontal (esquerda para direita)*/
+    justify-content: space-around;
+}
+
+.quadrado
+{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border: 1px black solid;
+    
+
+}

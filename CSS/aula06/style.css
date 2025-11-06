@@ -1,0 +1,54 @@
+*{ padding: 0; margin: 0;}
+
+header
+{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quadrado
+{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: 1px black solid;
+    margin: 20px;
+    box-sizing: border-box;
+}
+/*c t o r só no C# para fazer construtor
+mains axis
+cross size*/
+
+#container
+{
+
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly; 
+    height: 600px;
+    flex-direction: column;
+    
+    
+    /* justify-content = da direita para a esquerda*/
+     /*align-items de cima para baixo*/
+
+}
+
+img
+{
+    width: 400px;
+    height: 400px;
+}
+
+button
+{
+    width: 100px;
+    height: 20px;
+}
+
+h2
+{
+    color: white;
+}
+
