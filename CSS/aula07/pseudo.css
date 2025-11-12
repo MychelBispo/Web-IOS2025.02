@@ -1,0 +1,59 @@
+:root
+{
+    --corPrincipal: violet;
+    --fonteDesktop: 18px;
+    --fonteCelular: 22px;
+}
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, #00aaff, #00ff99); /* Gradiente de azul para verde */
+    transition: all 0.3s ease;
+}
+
+.quadrado:hover {
+    width: 220px;
+    height: 220px;
+    background: linear-gradient(45deg, #ff4040, #ffcc00); /* Gradiente de vermelho para amarelo */
+}
+
+/*react-i18*/
+
+a:link
+{
+    color: #ff4040;
+    font-size: 50px;
+}
+
+h1
+{
+    color: var(--corPrincipal);
+}
+
+span
+{
+    color: var(--corPrincipal);
+    
+}
+
+p:first-child
+{
+    color: blue;
+}
+
+#Shrek::first-letter
+{
+    font-size: 50px;
+
+}

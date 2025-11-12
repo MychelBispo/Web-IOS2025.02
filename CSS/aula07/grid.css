@@ -1,0 +1,35 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.container
+{
+    /**/
+    display: grid;
+    grid-template-columns: repeat(5,50px);
+    grid-template-rows: repeat(3,100px);
+}
+
+.item-1
+{
+    
+    background-color: aqua;
+
+    
+   
+    grid-column: 1/2;
+    grid-row: 1 / 4;
+}
+
+.item-2
+{
+    background-color: crimson;
+}
+
+.item-3
+{
+    background-color: khaki;
+}
